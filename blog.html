@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Yiğit Zennecioğlu</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .page-header { padding: 60px 60px 40px; border-bottom: 0.5px solid var(--bg-line); max-width: 680px; }
+    .page-tag { font-size: 11px; letter-spacing: 4px; text-transform: uppercase; color: var(--gold); margin-bottom: 16px; }
+    .page-title { font-family: var(--font-serif); font-size: 48px; font-weight: 700; color: var(--text-primary); margin: 0 0 12px; }
+    .page-desc { font-size: 14px; color: var(--text-muted); line-height: 1.7; }
+    .featured-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--bg-line); }
+    .featured-card { background: var(--bg-card); padding: 40px; cursor: pointer; text-decoration: none; display: block; }
+    .featured-card:hover .fc-title { color: var(--gold); }
+    .fc-meta { display: flex; gap: 16px; align-items: center; margin-bottom: 20px; }
+    .fc-date { font-size: 10px; letter-spacing: 1px; color: var(--text-dim); }
+    .fc-title { font-family: var(--font-serif); font-size: 22px; color: #e8e0d0; line-height: 1.3; margin-bottom: 14px; font-weight: 500; transition: color 0.2s; }
+    .fc-excerpt { font-size: 13px; color: var(--text-muted); line-height: 1.7; }
+    .fc-read { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #c9a84c44; margin-top: 24px; }
+    .posts-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--bg-line); }
+    .post-card { background: var(--bg-card); padding: 32px; cursor: pointer; text-decoration: none; display: block; }
+    .post-card:hover .pc-title { color: var(--gold); }
+    .pc-tag { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--gold); margin-bottom: 12px; }
+    .pc-title { font-family: var(--font-serif); font-size: 17px; color: #ccc; line-height: 1.4; margin-bottom: 12px; font-weight: 400; transition: color 0.2s; }
+    .pc-excerpt { font-size: 12px; color: #444; line-height: 1.6; }
+    .pc-date { font-size: 10px; letter-spacing: 1px; color: #2a2a2a; margin-top: 20px; }
+    .section { padding: 48px 60px; }
+  </style>
+</head>
+<body>
+  <nav class="site-nav">
+    <a href="../index.html" class="site-logo">YZ</a>
+    <div class="nav-links">
+      <a href="../about.html">About</a>
+      <a href="../portfolio.html">Portfolio</a>
+      <a href="../blog.html" class="active">Blog</a>
+      <a href="../gallery.html">Gallery</a>
+      <a href="../contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <div class="page-header">
+    <p class="page-tag">Writing & Ideas</p>
+    <h1 class="page-title">The Blog</h1>
+    <p class="page-desc">Thoughts on business, leadership, technology, and the mindset behind building something meaningful.</p>
+  </div>
+
+  <section class="section">
+    <div class="section-label" style="margin-bottom:32px;">Featured</div>
+    <div class="featured-grid">
+      <a href="blog/ibm-turnaround.html" class="featured-card">
+        <div class="fc-meta">
+          <span class="tag-pill">Business</span>
+          <span class="fc-date">APR 2026</span>
+        </div>
+        <div class="fc-title">The Remarkable Turnaround of IBM: From the Brink of Collapse to Industry Leadership</div>
+        <div class="fc-excerpt">In 1993, IBM reported an $8.2 billion loss — the largest in US corporate history at the time. What happened next changed how we think about leadership, culture, and reinvention.</div>
+        <div class="fc-read">Read article →</div>
+      </a>
+      <a href="blog/bottleneck-rule.html" class="featured-card">
+        <div class="fc-meta">
+          <span class="tag-pill">Leadership</span>
+          <span class="fc-date">APR 2026</span>
+        </div>
+        <div class="fc-title">The Bottleneck Rule: How Elon Musk Manages Multiple Companies at Once</div>
+        <div class="fc-excerpt">Most CEOs manage one company. Musk manages several. His secret is a deceptively simple framework: find the one thing holding everything back, and fix it personally.</div>
+        <div class="fc-read">Read article →</div>
+      </a>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="section-label" style="margin-bottom:32px;">All posts</div>
+    <div class="posts-grid">
+      <a href="blog/ceo-cfo-coo.html" class="post-card">
+        <div class="pc-tag">Business</div>
+        <div class="pc-title">Understanding the Roles of CEO, CFO, and COO: A Detailed Comparison</div>
+        <div class="pc-excerpt">Three titles, three distinct mindsets. Breaking down what separates the visionary from the strategist from the operator.</div>
+        <div class="pc-date">MAR 2026</div>
+      </a>
+      <a href="blog/startup-success.html" class="post-card">
+        <div class="pc-tag">Entrepreneurship</div>
+        <div class="pc-title">Unlocking Startup Success: Proven Strategies and 2025 Trends</div>
+        <div class="pc-excerpt">19 growth tactics and 15 emerging trends every founder should know — from viral loops to AI-powered automation.</div>
+        <div class="pc-date">MAR 2026</div>
+      </a>
+      <a href="blog/smart-cities.html" class="post-card">
+        <div class="pc-tag">Technology</div>
+        <div class="pc-title">Smart and Digital Cities: Building the Urban Future</div>
+        <div class="pc-excerpt">From sensor-equipped waste bins to adaptive street lighting — how data is transforming the way cities serve their citizens.</div>
+        <div class="pc-date">FEB 2026</div>
+      </a>
+      <a href="blog/mastering-your-mind.html" class="post-card">
+        <div class="pc-tag">Lifestyle</div>
+        <div class="pc-title">Mastering Your Mind: A Guide to Living in Peace and Purpose</div>
+        <div class="pc-excerpt">Eight principles to quiet the noise, reclaim your focus, and build a life driven by clarity rather than anxiety.</div>
+        <div class="pc-date">FEB 2026</div>
+      </a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-copy">© 2026 Yiğit Zennecioğlu — yigitzennecoglu.com</div>
+    <div class="footer-social">
+      <a href="https://instagram.com/ygtzenn" target="_blank">Instagram</a>
+      <a href="https://www.linkedin.com/in/yi%C4%9Fit-zennecio%C4%9Flu-aa84a6198/" target="_blank">LinkedIn</a>
+      <a href="https://www.youtube.com/@YEZE088" target="_blank">YouTube</a>
+    </div>
+  </footer>
+</body>
+</html>
