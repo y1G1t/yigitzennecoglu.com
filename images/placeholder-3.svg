@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="calm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#cfe3d4"/>
+      <stop offset="1" stop-color="#9dbfa8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#calm)"/>
+  <ellipse cx="240" cy="640" rx="220" ry="60" fill="#6f9480" opacity="0.5"/>
+  <ellipse cx="580" cy="680" rx="260" ry="70" fill="#5d806d" opacity="0.5"/>
+  <circle cx="600" cy="180" r="70" fill="#fffbe8" opacity="0.8"/>
+  <path d="M0 520 Q200 440 400 500 T800 480 V800 H0 Z" fill="#7ba58b" opacity="0.6"/>
+  <text x="400" y="760" font-family="Georgia, serif" font-size="28" fill="#fff" opacity="0.8" text-anchor="middle">Sakin bir öğleden sonra</text>
+</svg>

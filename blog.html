@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — Yiğit Zennecioğlu</title>
+  <meta name="description" content="Hayat, fikirler ve daha fazlası üzerine haftalık yazılar.">
+  <meta property="og:title" content="Blog — Yiğit Zennecioğlu">
+  <meta property="og:description" content="Hayat, fikirler ve daha fazlası üzerine haftalık yazılar.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="Blog RSS" href="feed.xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script>const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t;</script>
+</head>
+<body>
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">Yiğit Zennecioğlu</a>
+    <div class="nav-links">
+      <a href="index.html">Ana Sayfa</a>
+      <a href="blog.html">Blog</a>
+      <a href="thoughts.html">Düşünceler</a>
+      <a href="biography.html">Biyografi</a>
+      <a href="gallery.html">Galeri</a>
+    </div>
+    <div class="nav-right">
+      <button class="theme-toggle" aria-label="Tema değiştir"></button>
+      <button class="nav-toggle" aria-label="Menüyü aç/kapat" aria-expanded="false">&#9776;</button>
+    </div>
+  </nav>
+  <main class="container">
+    <div class="page-header">
+      <h1>Blog</h1>
+      <p>Hayat, fikirler ve daha fazlası üzerine haftalık yazılar.</p>
+    </div>
+    <div class="tag-filter" id="tag-filter"></div>
+    <div class="card-grid" id="blog-list"></div>
+  </main>
+  <footer class="footer">
+    <p>&copy; <span id="year">2026</span> Yiğit Zennecioğlu. Tüm hakları saklıdır.</p>
+  </footer>
+  <script src="js/content.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

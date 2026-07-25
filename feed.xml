@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Yeni yazı ekledikçe buraya bir <item> ekleyin. -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yiğit Zennecioğlu — Blog</title>
+    <link>https://yigitzennecioglu.com</link>
+    <description>Hayat, fikirler ve daha fazlası üzerine haftalık yazılar.</description>
+    <language>tr</language>
+    <atom:link href="https://yigitzennecioglu.com/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>İlk Blog Yazım</title>
+      <link>https://yigitzennecioglu.com/post.html?id=ilk-yazi</link>
+      <guid>https://yigitzennecioglu.com/post.html?id=ilk-yazi</guid>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 +0300</pubDate>
+      <description>Bu alana kısa bir giriş ve burada neler paylaşmayı planladığım üzerine.</description>
+    </item>
+
+    <item>
+      <title>Yürümek Üzerine</title>
+      <link>https://yigitzennecioglu.com/post.html?id=yurumek-uzerine</link>
+      <guid>https://yigitzennecioglu.com/post.html?id=yurumek-uzerine</guid>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0300</pubDate>
+      <description>Hedefsiz yürümenin neden en hafife alınan şeylerden biri olduğu üzerine.</description>
+    </item>
+
+  </channel>
+</rss>

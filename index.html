@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yiğit Zennecioğlu — Kişisel Site</title>
+  <meta name="description" content="Yiğit Zennecioğlu'nun kişisel sitesi: blog yazıları, kısa düşünceler ve fotoğraflar.">
+  <meta property="og:title" content="Yiğit Zennecioğlu — Kişisel Site">
+  <meta property="og:description" content="Blog yazıları, kısa düşünceler ve fotoğraflar.">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="alternate" type="application/rss+xml" title="Blog RSS" href="feed.xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script>const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t;</script>
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">Yiğit Zennecioğlu</a>
+    <div class="nav-links">
+      <a href="index.html" class="active">Ana Sayfa</a>
+      <a href="blog.html">Blog</a>
+      <a href="thoughts.html">Düşünceler</a>
+      <a href="biography.html">Biyografi</a>
+      <a href="gallery.html">Galeri</a>
+    </div>
+    <div class="nav-right">
+      <button class="theme-toggle" aria-label="Tema değiştir"></button>
+      <button class="nav-toggle" aria-label="Menüyü aç/kapat" aria-expanded="false">&#9776;</button>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Hoş geldiniz</h1>
+      <p>Yazılarım, fotoğraflarım ve aradaki her şey için bir yer.</p>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="home-section">
+      <h2>Son Yazılar</h2>
+      <div class="card-grid" id="latest-blogs">
+        <!-- JS ile doldurulur -->
+      </div>
+      <a href="blog.html" class="see-all">Tüm yazılar &rarr;</a>
+    </section>
+
+    <section class="home-section">
+      <h2>Son Düşünceler</h2>
+      <div class="card-grid" id="latest-thoughts">
+        <!-- JS ile doldurulur -->
+      </div>
+      <a href="thoughts.html" class="see-all">Tüm düşünceler &rarr;</a>
+    </section>
+
+    <section class="home-section">
+      <h2>Galeri</h2>
+      <div class="gallery-preview" id="gallery-preview">
+        <!-- JS ile doldurulur -->
+      </div>
+      <a href="gallery.html" class="see-all">Tüm fotoğraflar &rarr;</a>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year">2026</span> Yiğit Zennecioğlu. Tüm hakları saklıdır.</p>
+  </footer>
+
+  <script src="js/content.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
